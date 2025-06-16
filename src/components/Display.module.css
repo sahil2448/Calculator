@@ -1,0 +1,8 @@
+.display{
+    margin: 10px;
+    width: 175px;
+    font-size: 25px;
+    justify-content: center;
+    background-color: rgb(92, 132, 152);
+    color: rgb(211, 223, 236);
+}
