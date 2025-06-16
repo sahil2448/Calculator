@@ -19,9 +19,14 @@ function App() {
     }
   };
   return (
-    <div className={styles.calculator}>
-      <Display displayValue={calVal}></Display>
-      <ButtonsContainer onButtonClick={onButtonClick}></ButtonsContainer>
+    <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
+      <div>
+        <h1>Digital Calculator</h1>
+      </div>
+      <div className={styles.calculator}>
+        <Display displayValue={calVal}></Display>
+        <ButtonsContainer onButtonClick={onButtonClick}></ButtonsContainer>
+      </div>
     </div>
   );
 }
